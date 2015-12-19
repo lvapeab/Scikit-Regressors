@@ -10,8 +10,8 @@ from sklearn.metrics import mean_squared_error, accuracy_score
 
 print "Loading data"
 
-train_data = np.load('/home/lvapeab/PycharmProjects/Scikit-Regressors/data/xerox_train.npz')
-dev_data = np.load('/home/lvapeab/PycharmProjects/Scikit-Regressors/data/xerox_test.npz')
+train_data = np.load('data/xerox_train.npz')
+dev_data = np.load('data/xerox_test.npz')
 
 X_train = train_data['embeddings']
 y_train = train_data['classes']
